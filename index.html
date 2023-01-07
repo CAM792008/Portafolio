@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es" dir="utf-8"></html>
+<head>
+	<meta charset="utf-8"> <!-- para que reconozca carácteres especiales. -->
+	<!-- para adaptar la página a dispositivos móviles tambien -->
+	<meta name="viewport" content="width=device-width">
+	<!-- referencio el html con el css, para que lo reconozca -->
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<title>First-Desafio</title>
+</head>
+<body>
+	<div class="cuerpo">
+		<div class="logoAlura">
+			<!-- Le doy la ruta de ubicación donde guardé el logoAlura -->
+			<img class="logoImagen"src="imagenes/logo.png">
+			
+		</div>
+		<div class="ingresarTexto">
+			<!-- Espacio para que el usuario escriba el texto -->
+			<input class="text-input" id="inpuText" type="text" placeholder=" Ingrese el texto aquí">
+			
+		</div>
+		<div class="textNoMensaje">
+			<!-- ruta de la ubicación de la imagen del muñeco -->
+			<img src="imagenes/munheco.png" id="imagen1">
+			<h1 id="texto">Ningún mensaje fue encontrado</h1>
+			<textarea id="texto1" name="name" rows="8" cols="80">Ingresa el texto que desees encriptar o desencriptar</textarea>
+			<!-- Creación del botón que permite que el usuario copie lo que fue convertido a cifrado -->
+			<button id="copiar" type="button" name="boton-encriptar" onclick="copiar()">¡Copiar!</button>
+		</div>
+		<div class="Observacion">
+			<!-- agrego el simbolo de admiración en la frase:Solo letras minúculas y sin acentos -->
+			<h1 id="texto2">&#9888; Solo letras minúsculas y sin acentos</h1>
+			<button type="button" id="boton-encriptar" onclick="encriptar()">Encriptar!</button>
+			<button type="button" id="boton-desencriptar" onclick="desencriptar()">Desencriptar!</button>
+			
+		</div>
+		
+	</div>
+</body>
