@@ -9,10 +9,6 @@ function encriptar() {
 		alert("Escriba un texto");
 		window.location.reload();
 	}
-	if(texto == "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ"){
-		alert("no vale");
-		window.location.reload();
-	}
 	//los slash son para que busque todas las letras que hayan en la frase u oración
 	//la letra i; es para que haga el cambio tanto en letras mayúsculas como minúsculas
 	//la letra g; es para que busque en toda la frase y reemplace las letras
