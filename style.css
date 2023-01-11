@@ -54,20 +54,22 @@ body{
 	margin-left: 2%;
 }
 #texto{
-	margin-left: 10%;
+	margin-left: 3%;
 	margin-right: 5%;
 	font-size: 28px;
 	margin-right: auto;
+	text-align: center;
 }
 #texto1{
 	float: left;
-	margin-left: 12%;
+	margin-left: 10%;
 	color: #0A3871;
 	width: 80%;
 	height: 60%;
 	border: none;
 	outline: none;
 	font-size: 14px;
+	text-align: center;
 }
 #texto2{
 	float: left;
