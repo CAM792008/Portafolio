@@ -6,8 +6,8 @@ function encriptar() {
 	var textCifrado = textCifrado.replace(/a/igm,"ai");
 	var textCifrado = textCifrado.replace(/u/igm,"ufat");
 	if(texto == "" || texto == +texto){
-		alert("Escriba un texto");
-		window.location.reload();
+		alert("Por favor escriba un texto");//Despliega una ventana emergente cuando el usuario hace clic en el botón
+		window.location.reload();           //encriptar sin haber escrito un texto
 	}
 	//los slash son para que busque todas las letras que hayan en la frase u oración
 	//la letra i; es para que haga el cambio tanto en letras mayúsculas como minúsculas

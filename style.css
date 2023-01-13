@@ -53,6 +53,11 @@ body{
 	height: auto;
 	margin-left: 2%;
 }
+#titulo{
+	text-align: center;
+	margin-top: 0%;
+	font-size: 14px;
+}
 #texto{
 	margin-left: 3%;
 	margin-right: 5%;
